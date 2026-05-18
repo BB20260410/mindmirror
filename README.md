@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="logo-512.png" alt="MindMirror logo" width="180" height="180">
+<img src="logo-512.png" alt="DuetCheck logo" width="180" height="180">
 
-# MindMirror
+# DuetCheck
 
 **AI 监督员 — 让两个 AI 互相监督，专注创造**
 
@@ -10,23 +10,23 @@
 [![Platform](https://img.shields.io/badge/platform-macOS%2014+-lightgrey.svg)](#-系统要求)
 [![Mac App Store](https://img.shields.io/badge/Mac%20App%20Store-AI%20监督员%20Lite-orange.svg)](https://apps.apple.com/app/id6770338370)
 [![Pro Edition](https://img.shields.io/badge/Pro%20¥130-Lemon%20Squeezy-purple.svg)](https://hxx.lemonsqueezy.com)
-[![Website](https://img.shields.io/badge/website-mindmirror--5ns.pages.dev-4A7CB2.svg)](https://mindmirror-5ns.pages.dev)
+[![Website](https://img.shields.io/badge/website-duetcheck--5ns.pages.dev-4A7CB2.svg)](https://duetcheck.pages.dev)
 [![Privacy](https://img.shields.io/badge/privacy-100%25%20local-green.svg)](PRIVACY.md)
 
 </div>
 
 ---
 
-当你同时使用 **Claude Code、Codex、Cursor、Cline** 等多个 AI 编程助手，MindMirror 在屏幕上观察它们的工作过程，自动识别每一轮任务完成的时机，调用大语言模型分析当前进展，生成下一步指令——并自动键入到 AI 窗口。
+当你同时使用 **Claude Code、Codex、Cursor、Cline** 等多个 AI 编程助手，DuetCheck 在屏幕上观察它们的工作过程，自动识别每一轮任务完成的时机，调用大语言模型分析当前进展，生成下一步指令——并自动键入到 AI 窗口。
 
 **核心使命**：让你专注做创造性工作，把"想下一步"这件事交给 AI。
 
-🌐 **完整介绍**：[mindmirror-5ns.pages.dev](https://mindmirror-5ns.pages.dev)
+🌐 **完整介绍**：[duetcheck.pages.dev](https://duetcheck.pages.dev)
 
 ## 📸 界面预览
 
 <p align="center">
-  <img src="screenshots/01-main.png" alt="MindMirror 主界面" width="92%">
+  <img src="screenshots/01-main.png" alt="DuetCheck 主界面" width="92%">
 </p>
 
 <details>
@@ -82,7 +82,7 @@
 
 ```bash
 # 1. 下载 Pro .dmg（购买后邮件收到）
-open ~/Downloads/MindMirror-Pro-*.dmg
+open ~/Downloads/DuetCheck-Pro-*.dmg
 
 # 2. 拖到 /Applications/
 # 3. 首次启动会引导授予权限：
@@ -117,11 +117,11 @@ open ~/Downloads/MindMirror-Pro-*.dmg
 
 ## 🤝 集成
 
-MindMirror Pro 是 [Hermes Agent](https://hermes-agent.nousresearch.com/) 生态的 specialist tool：在 Hermes 里用自然语言说"暂停监督员 60 分钟"、"把主目标改成 X"即可远程控制 MindMirror。未来计划支持 Claude Desktop、Cursor、Cline 等所有 MCP host。
+DuetCheck Pro 是 [Hermes Agent](https://hermes-agent.nousresearch.com/) 生态的 specialist tool：在 Hermes 里用自然语言说"暂停监督员 60 分钟"、"把主目标改成 X"即可远程控制 DuetCheck。未来计划支持 Claude Desktop、Cursor、Cline 等所有 MCP host。
 
 ## 🐛 反馈
 
-- 提 [Issue](https://github.com/BB20260410/mindmirror/issues)
+- 提 [Issue](https://github.com/BB20260410/duetcheck/issues)
 - 邮件：ilifelahepeq54@gmail.com
 - 退款（14 天无理由）：[Lemon Squeezy 客户中心](https://hxx.lemonsqueezy.com) 或邮件
 
@@ -142,7 +142,7 @@ MindMirror Pro 是 [Hermes Agent](https://hermes-agent.nousresearch.com/) 生态
 
 ## 📄 License
 
-MindMirror（Lite + Pro）为**专有软件**。完整许可条款见 [LICENSE](LICENSE)。
+DuetCheck（Lite + Pro）为**专有软件**。完整许可条款见 [LICENSE](LICENSE)。
 
 本仓库**不含源代码**，仅作 landing page、隐私政策、issue 跟踪。Pro 用户拿到的是已签名公证的 .dmg + license key，所有逻辑在客户端运行。
 
