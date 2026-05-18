@@ -10,6 +10,8 @@
 [![Platform](https://img.shields.io/badge/platform-macOS%2014+-lightgrey.svg)](#-系统要求)
 [![Mac App Store](https://img.shields.io/badge/Mac%20App%20Store-AI%20监督员%20Lite-orange.svg)](https://apps.apple.com/app/id6770338370)
 [![Pro Edition](https://img.shields.io/badge/Pro%20¥130-Lemon%20Squeezy-purple.svg)](https://hxx.lemonsqueezy.com)
+[![Website](https://img.shields.io/badge/website-mindmirror--5ns.pages.dev-4A7CB2.svg)](https://mindmirror-5ns.pages.dev)
+[![Privacy](https://img.shields.io/badge/privacy-100%25%20local-green.svg)](PRIVACY.md)
 
 </div>
 
@@ -18,6 +20,28 @@
 当你同时使用 **Claude Code、Codex、Cursor、Cline** 等多个 AI 编程助手，MindMirror 在屏幕上观察它们的工作过程，自动识别每一轮任务完成的时机，调用大语言模型分析当前进展，生成下一步指令——并自动键入到 AI 窗口。
 
 **核心使命**：让你专注做创造性工作，把"想下一步"这件事交给 AI。
+
+🌐 **完整介绍**：[mindmirror-5ns.pages.dev](https://mindmirror-5ns.pages.dev)
+
+## 📸 界面预览
+
+<p align="center">
+  <img src="screenshots/01-main.png" alt="MindMirror 主界面" width="92%">
+</p>
+
+<details>
+<summary><b>更多截图</b>（思维导图 / 设置面板 / 模型选择 / 行为开关 / 关于）</summary>
+
+<br>
+
+|  |  |
+|---|---|
+| **思维导图** — 完成事件树状回看 | **API 设置** — 3 个 LLM provider |
+| <img src="screenshots/02-mindmap.png" width="100%"> | <img src="screenshots/03-settings-api.png" width="100%"> |
+| **模型选择** — MiniMax M2.7 等 | **行为开关** — 静音/守门/HUD 等 |
+| <img src="screenshots/04-settings-model.png" width="100%"> | <img src="screenshots/05-settings-behavior.png" width="100%"> |
+
+</details>
 
 ## ✨ 主要功能
 
@@ -52,7 +76,28 @@
 ## 🛒 购买
 
 - **Lite 免费**：[Mac App Store](https://apps.apple.com/app/id6770338370)（审核中）
-- **Pro ¥130**（约 $19 USD）：[hxx.lemonsqueezy.com](https://hxx.lemonsqueezy.com)（License key 终身有效）
+- **Pro ¥130**（约 $19 USD）：[hxx.lemonsqueezy.com](https://hxx.lemonsqueezy.com)（License key 终身有效，3 设备激活，所有未来更新免费，14 天无理由退款）
+
+## ⚡ 快速开始
+
+```bash
+# 1. 下载 Pro .dmg（购买后邮件收到）
+open ~/Downloads/MindMirror-Pro-*.dmg
+
+# 2. 拖到 /Applications/
+# 3. 首次启动会引导授予权限：
+#    - 屏幕录制（截屏 OCR 用）
+#    - Accessibility（AX 树读取 + 自动键入用）
+
+# 4. Onboarding 5 步引导：
+#    a. 配置 LLM API Key（MiniMax / Anthropic / 自定义 OpenAI）
+#    b. 开启屏幕录制权限
+#    c. 写下你的主目标（如"重构 ~/Desktop/myapp 为 SwiftUI 6"）
+#    d. 输入 license key（购买后邮件收到）
+#    e. 在 Project 设置里绑定 Claude Code / Codex 窗口
+
+# 5. 挂机离开。回来看时间轴 + 思维导图。
+```
 
 ## 💻 系统要求
 
@@ -78,10 +123,28 @@ MindMirror Pro 是 [Hermes Agent](https://hermes-agent.nousresearch.com/) 生态
 
 - 提 [Issue](https://github.com/BB20260410/mindmirror/issues)
 - 邮件：ilifelahepeq54@gmail.com
+- 退款（14 天无理由）：[Lemon Squeezy 客户中心](https://hxx.lemonsqueezy.com) 或邮件
+
+## 🗺️ 路线图
+
+**v0.5（规划中）**
+- 通用 MCP server（Claude Desktop / Cursor / Cline 都能接入）
+- 支持 N 个 AI 面板（不限 Claude + Codex）
+- TestFlight 一键发版（archive + altool + Submit 自动化）
+- devicectl 真机日志 stream + crash 自动抓取
+- Apple Intelligence on-device LLM（减云端依赖）
+
+**v0.4（已发布）**
+- iOS dogfood 链路（xcodebuild + simctl + VLM 视觉判定）
+- PerceptionMode 路由（auto / AX-only / OCR-only）
+- LLMNetworkRetry 统一重试 + Planner JSON 鲁棒化
+- CrashLogScanner + workingDirectory hints + sandbox 警告
 
 ## 📄 License
 
-MindMirror（Lite + Pro）为**专有软件**，源代码暂不开放。本仓库仅为 landing page、隐私政策、用户支持入口。
+MindMirror（Lite + Pro）为**专有软件**。完整许可条款见 [LICENSE](LICENSE)。
+
+本仓库**不含源代码**，仅作 landing page、隐私政策、issue 跟踪。Pro 用户拿到的是已签名公证的 .dmg + license key，所有逻辑在客户端运行。
 
 ---
 
