@@ -1,8 +1,8 @@
-# MindMirror 隐私政策
+# DuetCheck 隐私政策
 
 **最后更新：2026-05-18**
 
-MindMirror（Lite 与 Pro 版本统称"本软件"）是一款 macOS 桌面应用，由独立开发者维护。本隐私政策说明本软件如何处理你的数据。
+DuetCheck（Lite 与 Pro 版本统称"本软件"）是一款 macOS 桌面应用，由独立开发者维护。本隐私政策说明本软件如何处理你的数据。
 
 ## 1. 我们收集什么数据
 
@@ -46,15 +46,15 @@ MindMirror（Lite 与 Pro 版本统称"本软件"）是一款 macOS 桌面应用
 本软件**不与任何第三方共享你的数据**，除非：
 
 1. 你**主动配置**了某个 LLM 服务商（数据按上述 §1 发送给该服务商）
-2. 你**主动开启**了 Hermes Agent MCP 桥集成（Hermes Agent 可读取 MindMirror 状态，但 Hermes 本身也运行在你本地）
+2. 你**主动开启**了 Hermes Agent MCP 桥集成（Hermes Agent 可读取 DuetCheck 状态，但 Hermes 本身也运行在你本地）
 3. 你**主动开启**了通知集成（Bark / Ntfy / Slack / Feishu webhook），通知内容发到你配置的 URL
 
 ## 4. 数据存储位置
 
 - **macOS Keychain**：API Key（系统加密）
 - **`~/Library/Application Support/MindMirror/`**：项目配置、时间轴、思维导图、本地 RAG 索引
-- **`~/Library/Caches/MindMirror/`**：临时截图缓存（自动清理）
-- **`~/Library/Logs/MindMirror/`**：调试日志（用户可手动清理）
+- **`~/Library/Caches/DuetCheck/`**：临时截图缓存（自动清理）
+- **`~/Library/Logs/DuetCheck/`**：调试日志（用户可手动清理）
 
 ## 5. 你的权利
 
